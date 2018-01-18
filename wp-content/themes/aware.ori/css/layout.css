@@ -1,0 +1,694 @@
+/*
+* Skeleton V1.1
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 8/17/2011
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Navigation Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+/* Browser Resets */
+.flex-container a:active,
+.flexslider a:active {outline: none;}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {margin: 0; padding: 0; list-style: none;} 
+
+/* FlexSlider Necessary Styles
+*********************************/ 
+.flexslider {width: 100%; margin: 0; padding: 0;}
+.flexslider .slides > li {display: none; margin-bottom:0; } /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img {max-width: 100%; display: block;}
+.flex-pauseplay span {text-transform: capitalize;}
+
+ul.slides li {
+list-style-type: none;
+margin:0;
+}
+
+/* Clearfix for the .slides element */
+.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
+html[xmlns] .slides {display: block;} 
+* html .slides {height: 1%;}
+
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child {display: block;}
+
+/* Browser Resets */
+.flex-container a:active, .flexslider a:active {
+	outline: none;
+}
+.slides, .flex-control-nav, .flex-direction-nav {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+/* FlexSlider Necessary Styles
+*********************************/ 
+.flexslider {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.flexslider .slides > li {
+	display: none;
+	margin-bottom:0;
+} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img {
+	max-width: 100%;
+	display: block;
+}
+.flex-pauseplay span {
+	text-transform: capitalize;
+}
+/* Clearfix for the .slides element */
+.slides:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+html[xmlns] .slides {
+	display: block;
+}
+* html .slides {
+	height: 1%;
+}
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child {
+	display: block;
+}
+#slider {
+	margin-bottom: 36px;
+	display: none;
+}
+.wmuSliderWrapper {
+	overflow:hidden;
+}
+.wmuSlider {
+	width: 100%;
+	height: auto;
+	position:relative;
+	overflow:hidden;
+}
+.wmuSlider img {
+	position: relative;
+	z-index: 1;
+}
+.wmuSlider span {
+	display:block;
+	overflow:hidden;
+}
+.wmuSliderPrev, .wmuSliderNext {
+	position: absolute;
+	width: 40px;
+	height: 80px;
+	text-indent: -9999px;
+	background: url(../images/slider-sprite.png) no-repeat 0 0;
+	top: 50%;
+	margin-top: -40px;
+	z-index: 2;
+	cursor:pointer;
+}
+.wmuSliderPrev {
+	background-position: 100% 0;
+	left: 8px;
+}
+.wmuSliderNext {
+	right: 8px;
+}
+
+.wmuSliderPagination {
+	z-index: 2;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+.wmuSliderPagination li {
+	float: left;
+	margin: 0 5px 0 0;
+	list-style-type: none;
+}
+.wmuSliderPagination a {
+	display: block;
+	text-indent: -9999px;
+	width: 10px;
+	height: 10px;
+	background: url(../images/slider-sprite.png) no-repeat 0 -80px;
+    -moz-transition: none;
+	-webkit-transition: none;
+	-o-transition: none;
+	transition: none;
+    -moz-opacity:0.7 !important;	    		  
+    filter: alpha(opacity=70) !important;
+    opacity:0.7 !important;
+}
+.wmuSliderPagination a.wmuActive {
+	background-position: -10px -80px;
+}
+.wmuSlider .wmuLoading {
+	position: absolute;
+	width: 200px;
+	text-align: center;
+	height: 20px;
+	top: 50%;
+	left: 50%;
+	margin: -10px 0 0 -100px;
+	z-index: 0;
+}
+
+.wmuSliderPrev, .wmuSliderNext { /* default opacity */
+			  -moz-opacity:0.0; 
+     filter: alpha(opacity=00);
+     			   opacity:0.0;     	  
+	   -moz-transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	     -o-transition: all .2s ease-in-out;
+	        transition: all .2s ease-in-out;
+}
+
+.wmuSlider a.wmuSliderNext:hover, .wmuSlider a.wmuSliderPrev:hover, .wmuSliderPagination:hover a {  /* hover opacity */
+			   -moz-opacity:1.0 !important;	    		  
+     filter: alpha(opacity=100) !important;
+     			    opacity:1.0 !important;
+}
+.wmuSlider:hover .wmuSliderPrev {left: 0;} /* hover position */
+.wmuSlider:hover .wmuSliderNext {right: 0;} /* hover position */
+
+.wmuSlider:hover .wmuSliderNext, .wmuSlider:hover .wmuSliderPrev {
+				   -moz-opacity:0.7 !important;	    		  
+      filter: alpha(opacity=70) !important;
+     			    opacity:0.7 !important;
+}
+
+/* #Navigation Styles
+================================================== */
+
+/*** ESSENTIAL STYLES ***/
+.sf-menu, .sf-menu * {
+	margin:			0;
+	padding:		0;
+	list-style:		none;
+	z-index:10;
+}
+.sf-menu {
+	line-height:	1.0;
+}
+.sf-menu ul {
+	position:		absolute;
+	top:			-999em;
+	width:			10em; /* left offset of submenus need to match (see below) */
+}
+.sf-menu ul li, .sf-menu ul li li {
+	width:			100%;
+	font-size:12px;
+}
+.sf-menu ul li a {
+	padding: 15px 15px;
+	border-bottom: 1px dotted #dcdcdc;
+}
+
+.sf-menu ul li:last-child a {
+	border-bottom:none;	
+}
+.sf-menu ul li li {
+	background:#f2f2f2 url(../images/line-vert.gif) left repeat-y;
+	border-right:#cccccc solid 1px;
+}
+.sf-menu li:hover {
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+.sf-menu li {
+	float:			left;
+	position:		relative;
+}
+.sf-menu a {
+	display:		block;
+	position:		relative;
+}
+.sf-menu li:hover ul, .sf-menu li.sfHover ul {
+	left:			0;
+	top:			5em; /* match top ul list item height */
+	z-index:		99;
+}
+ul.sf-menu li:hover li ul, ul.sf-menu li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li:hover ul, ul.sf-menu li li.sfHover ul {
+	left:			10em; /* match ul width */
+	top:			0;
+}
+ul.sf-menu li li:hover li ul, ul.sf-menu li li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
+	left:			10em; /* match ul width */
+	top:			0;
+}
+/*** arrows **/
+.sf-menu a.sf-with-ul {
+	padding-right:  2.25em;
+	min-width:      1px; /* trigger IE7 hasLayout so spans position accurately */
+}
+.sf-sub-indicator {
+	position:       absolute;
+	display:        block;
+	right:          .75em;
+	top:            1.05em; /* IE6 only */
+	width:          10px;
+	height:         15px;
+	text-indent:    -999em;
+	overflow:       hidden;
+	background:     url('../images/navarrows.png') no-repeat -10px -100px; /* 8-bit indexed alpha png. IE6 gets solid image only */
+}
+a > .sf-sub-indicator {  /* give all except IE6 the correct values */
+	top:            1em;
+	background-position: 0 -100px; /* use translucent arrow for modern browsers*/
+}
+/* apply hovers to modern browsers */
+a:focus > .sf-sub-indicator, a:hover > .sf-sub-indicator, a:active > .sf-sub-indicator, li:hover > a > .sf-sub-indicator, li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px -100px; /* arrow hovers for modern browsers*/
+}
+/* point right for anchors in subs */
+.sf-menu ul .sf-sub-indicator {
+	background-position:  -12px 0;
+}
+.sf-menu ul a > .sf-sub-indicator {
+	background-position:  0 5px;
+}
+/* apply hovers to modern browsers */
+.sf-menu ul a:focus > .sf-sub-indicator, .sf-menu ul a:hover > .sf-sub-indicator, .sf-menu ul a:active > .sf-sub-indicator, .sf-menu ul li:hover > a > .sf-sub-indicator, .sf-menu ul li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px 5px; /* arrow hovers for modern browsers*/
+}
+/*** shadows for all but IE6 ***/
+.sf-shadow ul {
+}
+.sf-shadow ul.sf-shadow-off {
+	background: transparent;
+}
+/*** NAVIGATION SKIN ***/
+.sf-menu {
+	float:			right;
+}
+.sf-menu a {
+	padding: 		 .75em 1em 2.75em 1em;
+	margin:0px 1px;
+	text-decoration:none;
+}
+.sf-menu ul li a, .sf-menu ul li a:visited { /* visited pseudo selector so IE6 applies text colour*/
+	color:#333333;
+}
+.sf-menu ul li {
+	font-weight:normal;
+}
+.sf-menu .sfHover ul li a, .sf-menu .sfHover ul li li a {
+	color:#333333;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+	text-shadow: 0px 1px 0px #ffffff;
+}
+
+.sf-menu ul li a:focus, .sf-menu ul li a:hover, .sf-menu ul li a:active, .sf-menu ul li li a:focus, .sf-menu ul li li a:hover, .sf-menu ul li li a:active {
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+	color:#000000;
+	text-shadow:none;
+	text-shadow: 0px, 1px, 0px, #ffffff;
+}
+/* #Page Styles
+================================================== */
+.logo h1 {
+	line-height:28px;
+	font-size:28px;
+	margin:0;
+	padding:0;
+}
+
+.slideshowcontainer {
+	margin-bottom:50px;	
+}
+.slideshow {
+	margin-bottom:40px;
+}
+.flexslider {
+	background:#000 url(../images/zoom.png) center no-repeat;
+}
+.flexslider ul {
+	background:#fff;
+}
+#ajaxcontainer {
+	display:none;
+	/*background:#e8e8e8; */ 
+		width:100%;
+	/*padding:50px 0; */
+	/*	background: rgba(0,0,0,.05);*/
+}
+#ajaxcontainer .darkbubble {
+	margin-right: 15px;	
+}
+.wmuSlider span {
+	/*width: 580px !important;*/
+}
+.ajaxslider {
+	min-height:1px;
+}
+.ajaxcontent {	
+padding-top:0;
+}
+#ajaxouter {
+	/*border-left:5px solid #dcdcdc;
+	border-right:5px solid #dcdcdc;*/
+	margin-bottom: 60px;
+}
+.ajaxloading {
+	width:100%;
+	min-height:200px;
+	background:url(../images/loading.gif) center no-repeat;
+}
+
+/* #Page Styles
+================================================== */
+.filter li a {
+	color: #999;
+	text-decoration:none;
+	margin-bottom:1px;
+	padding:3px 9px;
+	text-decoration:none;
+	   }
+ul.filter li {
+	list-style:none;
+	float: left;
+	margin-right:0px;
+	margin-left:0;
+	background:url(../images/slash.png) left center no-repeat;
+}
+ul.filter li:first-child {
+	background:none;	
+}
+.filter li a:hover, .filter li.active a {
+	color:#333;
+	text-decoration:none;
+}
+
+.filter {
+	min-height:10px;	
+}
+
+.homecontent {
+	margin-bottom:30px;	
+}
+
+/* #Ajax Styles
+================================================== */
+#ajax-nav ul li {
+	list-style-type:none;
+	display:block;
+	margin:0;
+	margin-right:5px;
+	position:absolute;
+}
+
+.entry-content, .entry-title {
+	padding-right: 25px;	
+}
+
+.entry-title, .entry-title a {
+	color:#fff;	
+	margin-bottom:0;
+	text-decoration:none;
+}
+p.entry-details, p.entry-details a {
+	color:#777;
+	font-size:10px;
+}
+
+#ajax-nav {
+	height:24px;
+	padding:14px 0 0 0;
+}
+#next-port {
+	display:block;
+	position:absolute;
+	width:19px;
+	height:19px;
+	background-position: 0 0;
+	background:url(../images/nextp.png);
+	text-indent: -1999px;
+overflow: hidden;
+	margin:0;
+	right:-35px;
+	top:50%;
+	margin-top:-10px;
+	moz-transition:none;
+	-webkit-transition:none;
+	-o-transition:none;
+	transition:none;
+	-moz-transition:none;
+}
+
+#prev-port {
+	display:block;
+	position:absolute;
+	width:19px;
+	height:19px;
+	background-position: 0 0;
+	background:url(../images/prevp.png);
+	text-indent: -1999px;
+	overflow: hidden;
+	margin:0;
+	left:-35px;
+	top:50%;
+	margin-top:-10px;
+	moz-transition:none;
+	-webkit-transition:none;
+	-o-transition:none;
+	transition:none;
+	-moz-transition:none;
+}
+
+ a.portfolio-close {
+	display:block;
+	position:absolute;
+	margin:0px;
+	width:19px;
+	height:19px;
+	text-indent: -9999px;
+	background:url(../images/xout.gif);
+	background-position: 0 0;
+	right:0;
+	top:0;
+	moz-transition:none;
+	-webkit-transition:none;
+	-o-transition:none;
+	transition:none;
+	-moz-transition:none;
+}
+ a.portfolio-close:hover, #prev-port:hover, #next-port:hover {
+	background-position: 0 -19px;
+}
+
+#footer {
+	padding-top:50px;
+}
+
+.portfolioitem {
+	position:relative;	
+}
+.disable {
+	background:#f2f2f2;	
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	display:none;
+	opacity:0;
+	z-index:9999;
+}
+
+select#top_nav_menu {
+	display:none;
+	padding:10px;
+	margin:20px 0;
+	width:100%;
+	border-width:1px;
+	border-style:solid;
+}
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 1030px) {
+		#next-port {
+	margin:0;
+	right:0;
+	top:46px;
+}
+
+#prev-port {
+	margin:0;
+	right:0;
+	left:auto;
+	top:24px;
+}
+}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+ .container .item, .container .postphoto {
+ width:192px;
+ height:137px;
+}
+ .wmuSlider span {
+ width: 508px !important;
+}
+.top { display:none; }
+
+.recent-project {
+	width:40px;	
+}
+}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+ .container .item, .container .postphoto {
+ width:150px;
+ height:110px;
+}
+ .wmuSlider span {
+ width: 300px !important;
+}
+.top { display:none !important; }
+
+h1 {
+font-size:28px;	
+line-height:32px;
+}
+.recent-project {
+	width:44px;	
+}
+.one_fourth, .one_fifth, .one_sixth,
+.two_fourth, .two_fifth, .two_sixth,
+.three_fourth, .three_fifth, .three_sixth,
+.four_fifth, .four_sixth,
+.five_sixth {
+width: 100%;
+}
+select#top_nav_menu {
+	display:block;	
+}
+.nav {
+	display:none;	
+}
+.intro {
+padding-bottom: 35px;
+padding-top: 15px;
+}
+
+ a.portfolio-close {
+	top:-24px;
+	right:0;
+}
+
+#ajaxcontainer .darkbubble {
+margin-right: 0;
+}
+
+		#next-port {
+	margin:0;
+	right:24px;
+	top:-24px
+}
+
+#prev-port {
+	margin:0;
+	right:46px;
+	left:auto;
+	top:-24px;
+}
+.mobiledetails {
+	display:inline;	
+}
+
+.mobiledetails {
+	display:inline;	
+}
+
+.fulldetails {
+	display:none;	
+}
+.blogpost h3.blogtitle, .blogpost h3.blogtitle a {
+	margin-bottom:10px;	
+}
+}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+ .container .item, .container .postphoto {
+ width:210px;
+ height:155px;
+}
+ .wmuSlider span {
+ width: 420px !important;
+}
+.top { display:none; }
+
+.recent-project {
+	width:54px;	
+}
+
+.one_fourth, .one_fifth, .one_sixth {
+width: 100%;
+}
+}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		.one_third, .one_fourth, .one_fifth, .one_sixth {
+width: 100%;
+}
+}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/
+
+.projeto{
+	padding-bottom: 10px;
+}

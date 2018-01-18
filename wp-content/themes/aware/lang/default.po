@@ -1,0 +1,513 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Aware Wordpress Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-09 17:18-0600\n"
+"PO-Revision-Date: 2013-10-09 17:18-0600\n"
+"Last-Translator: Andre Gagnon <support@designcirc.us>\n"
+"Language-Team: 2winfactor <support@designcirc.us>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;__;_e;__e\n"
+"X-Poedit-Basepath: ./\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:8
+msgid "Page Not Found"
+msgstr ""
+
+#: ../404.php:24 ../index.php:92 ../page.php:25 ../single-portfolio.php:106
+#: ../single.php:92 ../taxonomy-sort.php:110 ../template-full.php:30
+#: ../template-rightsidebar.php:32
+msgid "Error 404 - Not found."
+msgstr ""
+
+#: ../404.php:25 ../index.php:95 ../page.php:26 ../single-portfolio.php:109
+#: ../single.php:95 ../taxonomy-sort.php:113 ../template-full.php:31
+#: ../template-rightsidebar.php:33
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr ""
+
+#: ../comments.php:8
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../comments.php:16
+msgid "Comments"
+msgstr ""
+
+#: ../comments.php:47
+msgid "Submit a Comment"
+msgstr ""
+
+#: ../comments.php:52
+msgid "Cancel Reply"
+msgstr ""
+
+#: ../comments.php:57
+msgid "You must be logged in to post a comment."
+msgstr ""
+
+#: ../comments.php:57
+msgid "Login"
+msgstr ""
+
+#: ../comments.php:61
+msgid "Logged in as"
+msgstr ""
+
+#: ../comments.php:61
+msgid "Logout."
+msgstr ""
+
+#: ../comments.php:64 ../template-contact.php:135
+#: ../functions/widget-contact.php:74
+msgid "Name"
+msgstr ""
+
+#: ../comments.php:70
+msgid "Mail"
+msgstr ""
+
+#: ../comments.php:76
+msgid "Website"
+msgstr ""
+
+#: ../comments.php:81 ../template-contact.php:154
+msgid "Message"
+msgstr ""
+
+#: ../functions.php:445
+msgid "Y/m/d"
+msgstr ""
+
+#: ../functions.php:447
+msgid "Re-Attach"
+msgstr ""
+
+#: ../functions.php:452
+msgid "(Unattached)"
+msgstr ""
+
+#: ../functions.php:453
+msgid "Attach"
+msgstr ""
+
+#: ../functions.php:494
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../functions.php:556
+msgid "Portfolio"
+msgstr ""
+
+#: ../functions.php:557
+msgid "Portfolio Item"
+msgstr ""
+
+#: ../functions.php:558
+msgid "Add New"
+msgstr ""
+
+#: ../functions.php:559
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: ../functions.php:560
+msgid "Edit"
+msgstr ""
+
+#: ../functions.php:561
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: ../functions.php:562
+msgid "New Portfolio Item"
+msgstr ""
+
+#: ../functions.php:563
+msgid "View Portfolio"
+msgstr ""
+
+#: ../functions.php:564
+msgid "View Portfolio Item"
+msgstr ""
+
+#: ../functions.php:565
+msgid "Search Portfolio Items"
+msgstr ""
+
+#: ../functions.php:566
+msgid "No Portfolios found"
+msgstr ""
+
+#: ../functions.php:567
+msgid "No Portfolio Items found in Trash"
+msgstr ""
+
+#: ../functions.php:568
+msgid "Parent Portfolio"
+msgstr ""
+
+#: ../functions.php:593
+msgid "Search Skills"
+msgstr ""
+
+#: ../functions.php:594
+msgid "All Skills"
+msgstr ""
+
+#: ../functions.php:595
+msgid "Parent Skill"
+msgstr ""
+
+#: ../functions.php:596
+msgid "Parent Skill:"
+msgstr ""
+
+#: ../functions.php:597
+msgid "Edit Skill"
+msgstr ""
+
+#: ../functions.php:598
+msgid "Update Skill"
+msgstr ""
+
+#: ../functions.php:599
+msgid "Add New Skill"
+msgstr ""
+
+#: ../functions.php:600
+msgid "New Skill Name"
+msgstr ""
+
+#: ../functions.php:601
+msgid "Skills"
+msgstr ""
+
+#: ../header.php:43
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../header.php:115
+msgid "Please enable javascript to view this site."
+msgstr ""
+
+#: ../header.php:207
+msgid "To Top"
+msgstr ""
+
+#: ../index.php:39 ../index.php:63 ../search.php:38 ../search.php:62
+#: ../single-portfolio.php:78 ../single-portfolio.php:89 ../single.php:45
+#: ../single.php:65 ../taxonomy-sort.php:78 ../taxonomy-sort.php:90
+#: ../template-projects.php:118 ../template-projects.php:129
+msgid "No Comments"
+msgstr ""
+
+#: ../index.php:39 ../index.php:63 ../search.php:38 ../search.php:62
+#: ../single-portfolio.php:78 ../single-portfolio.php:89 ../single.php:45
+#: ../single.php:65 ../taxonomy-sort.php:78 ../taxonomy-sort.php:90
+#: ../template-projects.php:118 ../template-projects.php:129
+msgid "One Comment"
+msgstr ""
+
+#: ../index.php:39 ../index.php:63 ../search.php:38 ../search.php:62
+#: ../single-portfolio.php:78 ../single-portfolio.php:89 ../single.php:45
+#: ../single.php:65 ../taxonomy-sort.php:78 ../taxonomy-sort.php:90
+#: ../template-projects.php:118 ../template-projects.php:129
+msgid "% Comments"
+msgstr ""
+
+#: ../index.php:45 ../index.php:64 ../search.php:44 ../search.php:63
+#: ../single-portfolio.php:90 ../single.php:51 ../single.php:66
+#: ../taxonomy-sort.php:91 ../template-projects.php:130
+#: ../functions/ajax-open.php:155
+msgid "In "
+msgstr ""
+
+#: ../index.php:49 ../index.php:64 ../search.php:48 ../search.php:63
+#: ../single-portfolio.php:90 ../single.php:55 ../single.php:66
+#: ../taxonomy-sort.php:91 ../template-projects.php:130
+msgid "By "
+msgstr ""
+
+#: ../index.php:55 ../index.php:71 ../search.php:54 ../search.php:70
+#: ../single.php:72 ../template-home.php:158 ../template-home.php:163
+#, php-format
+msgid "Permanent Link to %s"
+msgstr ""
+
+#: ../index.php:62 ../search.php:61 ../single-portfolio.php:88
+#: ../single.php:64 ../taxonomy-sort.php:89 ../template-projects.php:128
+msgid "On "
+msgstr ""
+
+#: ../index.php:77 ../search.php:76 ../single-portfolio.php:94
+#: ../single.php:77 ../taxonomy-sort.php:95 ../template-home.php:172
+#: ../template-projects.php:135 ../functions/ajax-open.php:159
+msgid "Leia mais..."
+msgstr ""
+
+#: ../index.php:81 ../search.php:80 ../single-portfolio.php:95
+#: ../single.php:79 ../taxonomy-sort.php:96 ../template-projects.php:136
+msgid "Editar Post"
+msgstr ""
+
+#: ../index.php:105 ../index.php:107 ../single-portfolio.php:119
+#: ../single-portfolio.php:123 ../single.php:104 ../single.php:106
+#: ../taxonomy-sort.php:124 ../taxonomy-sort.php:128
+#: ../template-projects.php:152 ../template-projects.php:156
+msgid "Anterior"
+msgstr ""
+
+#: ../index.php:123 ../index.php:125 ../single-portfolio.php:141
+#: ../single-portfolio.php:145 ../single.php:122 ../single.php:124
+#: ../taxonomy-sort.php:146 ../taxonomy-sort.php:150
+#: ../template-projects.php:174 ../template-projects.php:178
+msgid "Próximo"
+msgstr ""
+
+#: ../search.php:8
+msgid "Localizar Resultados para:"
+msgstr ""
+
+#: ../search.php:90
+msgid "Não econtrado."
+msgstr ""
+
+#: ../search.php:91
+msgid "Desculpa, termo não encontrado."
+msgstr ""
+
+#: ../searchform.php:4
+msgid "Digiter enter para localizar"
+msgstr ""
+
+#: ../single-portfolio.php:81 ../taxonomy-sort.php:82 ../template-home.php:166
+#: ../template-projects.php:121
+msgid "Por"
+msgstr ""
+
+#: ../taxonomy-sort.php:158
+msgid "&larr; Older"
+msgstr ""
+
+#: ../taxonomy-sort.php:161
+msgid "Newer &rarr;"
+msgstr ""
+
+#: ../template-contact.php:32
+msgid "You forgot to fill in your name"
+msgstr ""
+
+#: ../template-contact.php:42
+msgid "Your forgot to fill in your email address"
+msgstr ""
+
+#: ../template-contact.php:46
+msgid "Wrong email format"
+msgstr ""
+
+#: ../template-contact.php:57
+msgid "Please try answering this again."
+msgstr ""
+
+#: ../template-contact.php:66
+msgid "You forgot to fill in your message"
+msgstr ""
+
+#: ../template-contact.php:80
+msgid "Entre em contato com o site"
+msgstr ""
+
+#: ../template-contact.php:124
+msgid "There were errors in the form."
+msgstr ""
+
+#: ../template-contact.php:125
+msgid "Por favor tente novamente."
+msgstr ""
+
+#: ../template-contact.php:144
+msgid "Email"
+msgstr ""
+
+#: ../template-contact.php:166
+msgid "Espere, quanto é 5 - 1?"
+msgstr ""
+
+#: ../template-contact.php:178
+msgid "Enviando Mensagem"
+msgstr ""
+
+#: ../template-home.php:43
+msgid "Todos"
+msgstr ""
+
+#: ../template-home.php:144
+msgid "Blog Posts"
+msgstr ""
+
+#: ../admin/theme-functions.php:124
+#, php-format
+msgid "View all projects filed under %s"
+msgstr ""
+
+#: ../admin/theme-functions.php:140
+#, php-format
+msgid "Feed for all posts filed under %s"
+msgstr ""
+
+#: ../admin/theme-options.php:440
+msgid "Theme Skin"
+msgstr ""
+
+#: ../admin/theme-options.php:740
+msgid "Basic Spam Question"
+msgstr ""
+
+#: ../admin/theme-options.php:858
+msgid "Updates"
+msgstr ""
+
+#: ../admin/theme-options.php:861
+msgid "Themeforest Username"
+msgstr ""
+
+#: ../admin/theme-options.php:867
+msgid "Themeforest API Key"
+msgstr ""
+
+#: ../functions/customfields.php:14
+msgid "Video Settings"
+msgstr ""
+
+#: ../functions/customfields.php:20
+msgid "Youtube or Vimeo URL"
+msgstr ""
+
+#: ../functions/customfields.php:21
+msgid "If you are using youtube or Vimeo, please enter in the URL here."
+msgstr ""
+
+#: ../functions/customfields.php:48
+msgid "These settings enable you to provide videos for your viewers to watch."
+msgstr ""
+
+#: ../functions/theme-updater.php:68
+msgid "Please enter your Envato Marketplace Username."
+msgstr ""
+
+#: ../functions/theme-updater.php:72
+msgid "Please enter your Envato Marketplace API Key."
+msgstr ""
+
+#: ../functions/theme-updater.php:97
+msgid "The API \"set\" is a required parameter."
+msgstr ""
+
+#: ../functions/theme-updater.php:168
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr ""
+
+#: ../functions/update-notice.php:61
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+
+#: ../functions/update-notice.php:66
+msgid "An unknown error occurred"
+msgstr ""
+
+#: ../functions/widget-contact.php:37
+msgid "A widget that displays your latest tweets."
+msgstr ""
+
+#: ../functions/widget-contact.php:43
+msgid "Custom Quick Contact Widget"
+msgstr ""
+
+#: ../functions/widget-contact.php:75
+msgid "Email Address"
+msgstr ""
+
+#: ../functions/widget-contact.php:76
+msgid "Your Message"
+msgstr ""
+
+#: ../functions/widget-contact.php:157
+msgid "Contact Title (Optional):"
+msgstr ""
+
+#: ../functions/widget-contact.php:163
+msgid "Contact Page URL:"
+msgstr ""
+
+#: ../functions/widget-contact.php:169
+msgid "Button Text:"
+msgstr ""
+
+#: ../functions/widget-news.php:29
+msgid "A widget that displays the latest post(s) from a category."
+msgstr ""
+
+#: ../functions/widget-news.php:35
+msgid "Custom News Widget"
+msgstr ""
+
+#: ../functions/widget-news.php:64
+msgid "by"
+msgstr ""
+
+#: ../functions/widget-news.php:113
+msgid "News Title (Optional):"
+msgstr ""
+
+#: ../functions/widget-news.php:119
+#: ../functions/widget-recent-projects.php:111
+msgid "Number of Posts:"
+msgstr ""
+
+#: ../functions/widget-news.php:126
+msgid "Choose a Category:"
+msgstr ""
+
+#: ../functions/widget-project.php:29
+msgid "A widget that displays a project thumbnail and lightbox."
+msgstr ""
+
+#: ../functions/widget-project.php:35
+msgid "Custom Project Image Widget"
+msgstr ""
+
+#: ../functions/widget-project.php:111
+msgid "Project Image or Video (Any Size):"
+msgstr ""
+
+#: ../functions/widget-project.php:117
+msgid "Project Thumbnail URL (200px x 155px):"
+msgstr ""
+
+#: ../functions/widget-project.php:124
+msgid "Project Title:"
+msgstr ""
+
+#: ../functions/widget-project.php:130
+msgid "Description (Optional):"
+msgstr ""
+
+#: ../functions/widget-recent-projects.php:29
+msgid "A widget that displays small project thumbnails from recent projects."
+msgstr ""
+
+#: ../functions/widget-recent-projects.php:35
+msgid "Custom Recent Projects Widget"
+msgstr ""
+
+#: ../functions/widget-recent-projects.php:105
+msgid "Projects Title (Optional):"
+msgstr ""

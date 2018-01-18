@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* Add ie7 Stuff Here */
+
+.divider.contact {
+	height: 28px;
+}
+
+.widget li.recentcomments, .darkbubble, .lightbubble {
+	position:static;
+}
+
+.darkbubble {
+	padding: 12px;	
+	margin: 0 0 10px 0;
+}
+
+.darkbubble.date {
+	padding-bottom:0;	
+}

@@ -1,0 +1,19 @@
+wp-config.php
+.htaccess
+debug.log
+*~
+*swp
+.DS*Store
+wp-content/uploads/
+.buildpath
+.settings
+
+# Sublime Text project files
+*.sublime-project
+*.sublime-workspace
+scripts/update-wp.conf
+
+#PHPStorm
+.idea
+
+node_modules
