@@ -25,10 +25,10 @@
     <img src="<?php echo get_template_directory_uri();?>/images/logos/red-cultura.png">
     <hr>
     <img src="<?php echo get_template_directory_uri();?>/images/logos/costarica.jpg">
-    <img src="http://iberculturaviva.org/wp-content/uploads/2018/01/photo5080242181800830962.jpeg" style="max-height: 56px;">
+    <img src="<?php echo get_template_directory_uri();?>/images/logos/ecuador.jpg">      
     <img src="<?php echo get_template_directory_uri();?>/images/logos/el-salvador.png">
     <img src="<?php echo get_template_directory_uri();?>/images/logos/espana.png">
-    <img src="http://iberculturaviva.org/wp-content/uploads/2018/01/photo5080242181800830961.jpg" style="max-height: 56px;">
+    <img src="<?php echo get_template_directory_uri();?>/images/logos/guatemala.jpg">
     <hr>
     <img src="<?php echo get_template_directory_uri();?>/images/logos/sec-cultura-mx.jpg">
     <img src="<?php echo get_template_directory_uri();?>/images/logos/peru.png">
