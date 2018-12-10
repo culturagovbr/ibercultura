@@ -19,17 +19,17 @@
 </div>
 <div class="container" style="text-align: center;">
     <img src="<?php echo get_template_directory_uri();?>/images/logos/secr_ibero_am.png">
-    <img src="<?php echo get_template_directory_uri();?>/images/logos/argentina.png">
+    <img src="<?php echo get_template_directory_uri();?>/images/logos/argentina.jpg">
     <img src="<?php echo get_template_directory_uri();?>/images/logos/brasil-minc-2016.png">
     <img src="<?php echo get_template_directory_uri();?>/images/logos/chile.png">
     <img src="<?php echo get_template_directory_uri();?>/images/logos/red-cultura.png">
     <hr>
     <img src="<?php echo get_template_directory_uri();?>/images/logos/costarica.jpg">
     <img src="<?php echo get_template_directory_uri();?>/images/logos/ecuador.jpg">      
-    <img src="<?php echo get_template_directory_uri();?>/images/logos/elsalvador.jpg">
+    <img style="margin-left: 20px;" src="<?php echo get_template_directory_uri();?>/images/logos/elsalvador.jpg">
     <img src="<?php echo get_template_directory_uri();?>/images/logos/espana.png">
-    <img src="<?php echo get_template_directory_uri();?>/images/logos/guatemala.jpg">
     <hr>
+    <img src="<?php echo get_template_directory_uri();?>/images/logos/guatemala.jpg">
     <img src="<?php echo get_template_directory_uri();?>/images/logos/sec-cultura-mx.jpg">
     <img src="<?php echo get_template_directory_uri();?>/images/logos/peru.png">
     <img src="<?php echo get_template_directory_uri();?>/images/logos/mec.png">
