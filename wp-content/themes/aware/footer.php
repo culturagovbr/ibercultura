@@ -28,8 +28,8 @@
     <img src="<?php echo get_template_directory_uri();?>/images/logos/ecuador.jpg">      
     <img style="margin-left: 20px;" src="<?php echo get_template_directory_uri();?>/images/logos/elsalvador.jpg">
     <img src="<?php echo get_template_directory_uri();?>/images/logos/espana.png">
-    <hr>
     <img src="<?php echo get_template_directory_uri();?>/images/logos/guatemala.jpg">
+    <hr>
     <img src="<?php echo get_template_directory_uri();?>/images/logos/sec-cultura-mx.jpg">
     <img src="<?php echo get_template_directory_uri();?>/images/logos/peru.png">
     <img src="<?php echo get_template_directory_uri();?>/images/logos/mec.png">
