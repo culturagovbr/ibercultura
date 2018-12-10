@@ -26,7 +26,7 @@
     <hr>
     <img src="<?php echo get_template_directory_uri();?>/images/logos/costarica.jpg">
     <img src="<?php echo get_template_directory_uri();?>/images/logos/ecuador.jpg">      
-    <img src="<?php echo get_template_directory_uri();?>/images/logos/el-salvador.png">
+    <img src="<?php echo get_template_directory_uri();?>/images/logos/elsalvador.jpg">
     <img src="<?php echo get_template_directory_uri();?>/images/logos/espana.png">
     <img src="<?php echo get_template_directory_uri();?>/images/logos/guatemala.jpg">
     <hr>
