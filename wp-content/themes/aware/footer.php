@@ -20,7 +20,7 @@
 <div class="container" style="text-align: center;">
     <img src="<?php echo get_template_directory_uri();?>/images/logos/secr_ibero_am.png">
     <img style="margin-right: 10px;" src="<?php echo get_template_directory_uri();?>/images/logos/argentina.jpg">
-    <img src="<?php echo get_template_directory_uri();?>/images/logos/brasil-minc-2016.png">
+    <img src="<?php echo get_template_directory_uri();?>/images/logos/brasil-cidadania.png">
     <img src="<?php echo get_template_directory_uri();?>/images/logos/chile.png">
     <img src="<?php echo get_template_directory_uri();?>/images/logos/red-cultura.png">
     <hr>
