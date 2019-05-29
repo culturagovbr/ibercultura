@@ -22,7 +22,6 @@
     <img style="margin-right: 10px;" src="<?php echo get_template_directory_uri();?>/images/logos/argentina.jpg">
     <img src="<?php echo get_template_directory_uri();?>/images/logos/brasil-cidadania.png">
     <img src="<?php echo get_template_directory_uri();?>/images/logos/chile.png">
-    <img src="<?php echo get_template_directory_uri();?>/images/logos/red-cultura.png">
     <hr>
     <img src="<?php echo get_template_directory_uri();?>/images/logos/costarica.jpg">
     <img src="<?php echo get_template_directory_uri();?>/images/logos/ecuador.jpg">      
